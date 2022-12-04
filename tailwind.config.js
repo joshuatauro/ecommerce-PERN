@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "primary": "poppins",
+        "manrope": "manrope",
         "secondary": "zen dots",
       },
       colors: {

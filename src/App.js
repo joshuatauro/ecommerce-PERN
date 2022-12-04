@@ -5,9 +5,8 @@ import './index.css';
 
 function App() {
   return (
-    <div className="App font-primary">
+    <div className="App font-manrope">
       <Navbar />
-      <h1 className="text-teal-600">jjj</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />

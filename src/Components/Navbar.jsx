@@ -3,17 +3,17 @@ import { MagnifyingGlassIcon, HeartIcon, ShoppingCartIcon } from '@heroicons/rea
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
-    <nav className="h-24 border-b-2">
+    <nav className="h-24 border-b-2 font-primary">
       <div className="w-[95%] mx-auto h-full grid grid-cols-12">
         <div className="w-full h-full flex items-center border-r-2 col-span-2 ">
-          <h1 className=" font-secondary font-semibold text-2xl"> AMAZON</h1>
+          <h1 className=" font-primary font-extrabold text-2xl"> AMAZON</h1>
         </div>
         <div className="ml-5 flex items-center col-span-10 justify-between">
           <div className="flex">
             <div className="h-12 px-2 flex items-center rounded-md bg-secondary">
               <MagnifyingGlassIcon className="h-5 text-[#9CA3AF]" />
             </div>
-            <input type="text" placeholder='Search among 100+ products' className="placeholder:text-sm focus:outline-none h-12 bg-secondary rounded-md text-sm text-gray-500" />
+            <input type="text" placeholder='Search among 100+ products' className="placeholder:text-sm focus:outline-none w-96 h-12 bg-secondary rounded-md text-sm text-gray-500" />
           </div>
           <div className="flex">
             <div className="h-12 flex items-center  bg-primary px-5 rounded-md text-cta">
