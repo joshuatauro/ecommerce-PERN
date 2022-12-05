@@ -32,7 +32,7 @@ const Landing = () => {
           <ProductCard image={"https://res.cloudinary.com/dvjlrqrlx/image/upload/v1662875080/ecom/zdrjztfo3u8ftvdjb0v3_el3eaf.png"} price={150} name="Keychron K2V2"/>
           <ProductCard image={"https://res.cloudinary.com/dvjlrqrlx/image/upload/v1662876102/ecom/51xxA_6E_xL._SX679__phcayy.png"} price={1500} name="Macbook Air M2"/>
           <ProductCard image={"https://res.cloudinary.com/dvjlrqrlx/image/upload/v1666678804/ecom/61KeIxmldLL._SL1500__r8hm98.png"} price={1500} name="Macbook Air M2"/>
-
+          <ProductCard image={"https://res.cloudinary.com/dvjlrqrlx/image/upload/v1662871150/ecom/airm2_sry0gq.png"} price={1500} name="Macbook Air M1"/>
         </div>
       </div>
     </div>
