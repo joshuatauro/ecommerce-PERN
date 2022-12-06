@@ -1,5 +1,7 @@
 import { HeartIcon, ShoppingCartIcon } from '@heroicons/react/24/outline'
 import React from 'react'
+import ProductCard from '../Components/ProductCard'
+import ReviewCard from '../Components/ReviewCard'
 
 const ProductPage = () => {
   return (
@@ -18,17 +20,17 @@ const ProductPage = () => {
         <div className="col-span-10 mt-5 ml-5 mb-12 ">
           <div className="grid grid-cols-2 gap-x-5">
             <div className="h-full w-full grid grid-rows-6 gap-y-3 place-items-center rounded-md">
-              <div className="bg-[#f5f5f5] row-span-5 h-full w-full rounded-md grid place-items-center">
+              <div className="bg-secondary row-span-5 h-full w-full rounded-md grid place-items-center">
                 <img className=" object-contain h-3/4" src="https://res.cloudinary.com/dvjlrqrlx/image/upload/v1662871150/ecom/airm2_sry0gq.png" alt="" />
               </div>
               <div className="row-span-2 grid grid-cols-3 gap-3 h-full w-full">
-                <div className="h-full w-full bg-[#f5f5f5] rounded-md grid place-items-center">
+                <div className="h-full w-full bg-secondary rounded-md grid place-items-center">
                   <img className="object-contain w-2/3 max-h-3/4 " src="https://res.cloudinary.com/dvjlrqrlx/image/upload/v1666685767/ecom/61Er61SxBhL._SL1500__cxg7mq.png" alt="" />
                 </div>
-                <div className="h-full w-full bg-[#f5f5f5] rounded-md grid place-items-center">
+                <div className="h-full w-full bg-secondary rounded-md grid place-items-center">
                   <img className="object-contain w-2/3 max-h-3/4 " src="https://res.cloudinary.com/dvjlrqrlx/image/upload/v1662871150/ecom/airm1_u0jzzu.png" alt="" />
                 </div>
-                <div className="h-full w-full bg-[#f5f5f5] rounded-md grid place-items-center">
+                <div className="h-full w-full bg-secondary rounded-md grid place-items-center">
                   <img className="object-contain w-2/3 max-h-3/4 " src="https://res.cloudinary.com/dvjlrqrlx/image/upload/v1662875080/ecom/zdrjztfo3u8ftvdjb0v3_el3eaf.png" alt="" />
                 </div>
               </div>
@@ -73,6 +75,17 @@ const ProductPage = () => {
           </div>
           <h1 className="mt-12 text-xl font-semibold">Product Reviews</h1>
           <p className="text-sm text-gray-500">Read the product reviews from people all over the world who have brought this product from us!</p>
+          <button className="text-sm py-4 rounded-md px-5 bg-primary text-cta font-semibold my-5">Sort by: Highest Rating</button>
+          <ReviewCard />
+          <ReviewCard />
+          <ReviewCard />
+          <h1 className="mt-12 text-xl font-semibold">More Products like this</h1>
+          <div className="grid grid-cols-4 gap-5 mt-3">
+            <ProductCard image={"https://res.cloudinary.com/dvjlrqrlx/image/upload/v1662871150/ecom/airm1_u0jzzu.png"} price={1500} name="Macbook Air M2" />
+            <ProductCard image={"https://res.cloudinary.com/dvjlrqrlx/image/upload/v1666678804/ecom/61KeIxmldLL._SL1500__r8hm98.png"} price={800} name="iPhone 13 Pro"/>
+            <ProductCard image={"https://res.cloudinary.com/dvjlrqrlx/image/upload/v1662875080/ecom/zdrjztfo3u8ftvdjb0v3_el3eaf.png"} price={150} name="Keychron K2V2"/>
+            <ProductCard image={"https://res.cloudinary.com/dvjlrqrlx/image/upload/v1662876102/ecom/51xxA_6E_xL._SX679__phcayy.png"} price={1500} name="Macbook Air M2"/>
+          </div>
         </div>
       </div>
     </div>

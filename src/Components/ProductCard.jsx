@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const ProductCard = ({image, price, name, id}) => {
   return (
     <div className="grid grid-rows-3 h-72 rounded-xl outline-1 outline outline-gray-300 ">
-      <Link className="bg-[#f5f5f5] rounded-t-xl outline outline-gray-300 outline-1  row-span-2 grid  place-items-center px-5">
+      <Link className="bg-secondary rounded-t-xl outline outline-gray-300 outline-1  row-span-2 grid  place-items-center px-5">
         <img className="object-contain h-3/4" src={image} alt="" />
       </Link>
       <div className="mx-3 my-2 flex flex-col justify-between">

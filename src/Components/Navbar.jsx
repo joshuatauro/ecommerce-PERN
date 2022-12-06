@@ -1,6 +1,5 @@
 import React from 'react'
 import { MagnifyingGlassIcon, HeartIcon, ShoppingCartIcon } from '@heroicons/react/24/outline'
-import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav className="h-24 border-b-2 font-primary">
