@@ -3,11 +3,11 @@ import { MagnifyingGlassIcon, HeartIcon, ShoppingCartIcon } from '@heroicons/rea
 const Navbar = () => {
   return (
     <nav className="h-24 border-b-2 font-primary">
-      <div className="w-[95%] mx-auto h-full grid grid-cols-12">
+      <div className="w-[95%] mx-auto h-full grid grid-cols-16">
         <div className="w-full h-full flex items-center border-r-2 col-span-2 ">
           <h1 className=" font-primary font-extrabold text-2xl"> AMAZON</h1>
         </div>
-        <div className="ml-5 flex items-center col-span-10 justify-between">
+        <div className="ml-5 flex items-center col-span-14 justify-between">
           <div className="flex">
             <div className="h-12 px-2 flex items-center rounded-md bg-secondary">
               <MagnifyingGlassIcon className="h-5 text-[#9CA3AF]" />

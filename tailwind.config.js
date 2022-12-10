@@ -14,6 +14,12 @@ module.exports = {
         "secondary": "#F8F9FD",
         "primary": "#EAE6FC",
         "cta": "#2C00D4"
+      },
+      gridTemplateColumns: {
+        '16': "repeat(16, minmax(0, 1fr))"
+      },
+      gridColumn: {
+        'span-14': 'span 14 / span 14'
       }
     },
   },
